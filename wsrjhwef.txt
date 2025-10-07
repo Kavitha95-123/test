@@ -1,0 +1,11 @@
+//span[@class="si-fname si-text"] | //div[@class="si-table-data si-rating"]/span  /////for locating country and points
+//span[@class="si-fname si-text"]| //div[@class="si-table-data si-pts"]/span
+
+//p[text()='Puneri Paltan']/ancestor::div[@class="row-head"]//div[@class="table-data form"]//p
+//p[text()='Puneri Paltan']/ancestor::div[@class="table-data team"]/following-sibling::div[@class="table-data form"]//p
+
+
+
+diff npx and npm
+
+http://49.249.28.218:8081/AppServer/
