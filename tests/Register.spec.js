@@ -3,5 +3,6 @@ import { test } from "@playwright/test";
 test('test1',async({page})=>{
     await page.goto('https://demoapps.qspiders.com/ui?scenario=1')
     let rpage = new Registerpage(page)
-    await rpage.register('kavitha','kavitha@gmail.com','1234')
+   let a = await rpage.register('kavitha','kavitha@gmail.com','1234')
+    console.log(a)
 })
