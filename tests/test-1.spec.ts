@@ -9,7 +9,7 @@ test.skip('Home page',async({page})=>{
     await expect(page).toHaveURL("https://demoapps.qspiders.com/ui/button")
     await page.locator('#btn').click()
 });
-test.only('built-infunctions',async({page})=>{
+test('built-infunctions',async({page})=>{
     await page.goto('https://demoapps.qspiders.com/')
     let logo = await page.getByAltText('img not found')
     await expect(logo).toBeVisible()

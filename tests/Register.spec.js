@@ -5,4 +5,4 @@ test('test1',async({page})=>{
     let rpage = new Registerpage(page)
    let a = await rpage.register('kavitha','kavitha@gmail.com','1234')
     console.log(a)
-})
+});

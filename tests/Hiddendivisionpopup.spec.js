@@ -21,7 +21,7 @@ test.skip('Hiddendivision popup',async({page})=>{
     await page.waitForTimeout(2000)
     await page.keyboard.up('Enter') 
  });
- test.only('mouse',async({page})=>{
+ test('mouse',async({page})=>{
 await page.goto('https://demoapps.qspiders.com/ui/button?sublist=0')
 await page.locator('Yes').hover
 await page.mouse.click()
