@@ -1,5 +1,5 @@
 import { test,expect } from "@playwright/test";
-test.skip('Hiddendivision popup',async({page})=>{
+test('Hiddendivision popup',async({page})=>{
     await page.goto('https://demoapps.qspiders.com/ui/hidden?sublist=0')
     await page.getByText('Add Customer').click()
     await page.waitForTimeout(2000)
@@ -13,7 +13,7 @@ test.skip('Hiddendivision popup',async({page})=>{
 
     
 });
- test.skip('keyboard',async({page})=>{
+ test('keyboard',async({page})=>{
     await page.goto('https://demoapps.qspiders.com/ui/button?sublist=0')
     await page.getByText('Yes')
     await page.waitForTimeout(2000)
